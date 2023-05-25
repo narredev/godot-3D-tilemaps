@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://cm26gaoo86sjc"]
+
+[ext_resource type="TileSet" uid="uid://bluab347p7aae" path="res://addons/3d_tilemaps/assets/tileset.tres" id="1_y1up5"]
+[ext_resource type="Script" path="res://addons/3d_tilemaps/scripts/scene_placer.gd" id="2_dj7a2"]
+[ext_resource type="PackedScene" uid="uid://c827pcinejaqp" path="res://scenes/test_obj/test_obj.tscn" id="3_w270c"]
+
+[node name="map_01" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("1_y1up5")
+cell_quadrant_size = 8
+format = 2
+layer_0/name = "Base"
+layer_0/tile_data = PackedInt32Array(393222, 720896, 3, 327686, 720896, 2, 262150, 393216, 2, 196614, 589824, 2, 131078, 393216, 1, 65542, 720896, 2, 6, 720896, 0, 393221, 589824, 3, 327685, 589824, 2, 262149, 589824, 2, 196613, 589824, 2, 131077, 589824, 2, 65541, 589824, 2, 5, 655360, 0, 393220, 589824, 3, 327684, 589824, 2, 262148, 589824, 2, 196612, 589824, 2, 131076, 589824, 2, 65540, 589824, 2, 4, 655360, 0, 393219, 589824, 3, 327683, 589824, 2, 262147, 589824, 2, 196611, 589824, 2, 131075, 589824, 2, 65539, 589824, 2, 3, 655360, 0, 393218, 655360, 3, 327682, 589824, 2, 262146, 589824, 2, 196610, 589824, 2, 131074, 589824, 2, 65538, 589824, 2, 2, 655360, 0, 393217, 589824, 3, 327681, 589824, 2, 262145, 589824, 2, 196609, 589824, 2, 131073, 589824, 2, 65537, 589824, 2, 1, 655360, 0, 393216, 524288, 3, 327680, 524288, 1, 262144, 524288, 1, 196608, 524288, 1, 131072, 524288, 1, 65536, 524288, 1, 0, 524288, 0, 196619, 196608, 0, 196618, 131072, 3, 196617, 131072, 3, 196616, 720896, 1, 196615, 589824, 2, 262152, 720896, 3, 131080, 720896, 0, 262151, 589824, 3, 131079, 655360, 0, 589835, 589824, 2, 524299, 589824, 0, 458763, 0, 1, 393227, 0, 1, 327691, 0, 1, 262155, 0, 1, 655362, 65536, 2, 589826, 0, 1, 524290, 0, 1, 458754, 0, 1, 655371, 589824, 2, 655370, 589824, 2, 655369, 524288, 2, 655368, 131072, 3, 655367, 131072, 3, 655366, 131072, 3, 655365, 131072, 3, 655364, 131072, 3, 655363, 131072, 3, 589834, 589824, 2, 524298, 655360, 0, 589833, 524288, 1, 524297, 524288, 0, 655372, 720896, 2, 589836, 720896, 2, 524300, 720896, 0, 720908, 720896, 3, 720907, 589824, 3, 720906, 589824, 3, 720905, 524288, 3)
+layer_1/name = ""
+layer_1/enabled = true
+layer_1/modulate = Color(1, 1, 1, 1)
+layer_1/y_sort_enabled = false
+layer_1/y_sort_origin = 0
+layer_1/z_index = 0
+layer_1/tile_data = PackedInt32Array(65537, 327682, 1, 65541, 327682, 1)
+
+[node name="test_obj2" type="Node2D" parent="TileMap"]
+visible = false
+position = Vector2(72, 56)
+rotation = 0.764338
+script = ExtResource("2_dj7a2")
+p_scene = ExtResource("3_w270c")
+scene_props = Array[StringName]([&"item_id", &"other"])
+scene_data = {
+"item_id": &"item1"
+}
+scene_metadata = {}
+
+[node name="test_obj" type="Node2D" parent="TileMap"]
+visible = false
+position = Vector2(24, 88)
+rotation = -1.57513
+script = ExtResource("2_dj7a2")
+p_scene = ExtResource("3_w270c")
+scene_props = Array[StringName]([&"item_id", &"other"])
+scene_data = {
+"item_id": &"item2",
+"other": NodePath("../test_obj2")
+}
+scene_metadata = {
+"_editor_prop_ptr_other": NodePath("../test_obj2")
+}

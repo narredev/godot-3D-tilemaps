@@ -1,0 +1,169 @@
+[gd_scene load_steps=11 format=3 uid="uid://6ujnfque36wu"]
+
+[ext_resource type="Script" path="res://addons/3d_tilemaps/scripts/block_unit.gd" id="1_j2vqj"]
+[ext_resource type="Texture2D" uid="uid://ctyf76rvty2eb" path="res://addons/3d_tilemaps/assets/checker.png" id="2_u2207"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kfala"]
+size = Vector3(2, 0.1, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_35500"]
+albedo_texture = ExtResource("2_u2207")
+uv1_scale = Vector3(0.25, 0.25, 0.25)
+uv1_triplanar = true
+uv1_world_triplanar = true
+texture_filter = 0
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_eevoj"]
+material = SubResource("StandardMaterial3D_35500")
+
+[sub_resource type="BoxMesh" id="BoxMesh_vdpdu"]
+size = Vector3(2, 0.1, 2)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_bj06d"]
+material = SubResource("StandardMaterial3D_35500")
+flip_faces = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8xndl"]
+size = Vector3(2, 4, 0.1)
+
+[sub_resource type="PlaneMesh" id="QuadMesh_i0t8s"]
+material = SubResource("StandardMaterial3D_35500")
+size = Vector2(2, 4)
+orientation = 2
+
+[sub_resource type="BoxMesh" id="BoxMesh_qh1e4"]
+size = Vector3(2.1, 4.1, 0.05)
+
+[node name="BlockUnit" type="StaticBody3D" groups=["navmesh"]]
+script = ExtResource("1_j2vqj")
+tile_size = Vector3i(2, 4, 2)
+
+[node name="Floor" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_kfala")
+
+[node name="FloorIn" type="MeshInstance3D" parent="Floor"]
+cast_shadow = 2
+visibility_range_end = 150.0
+visibility_range_end_margin = 20.0
+visibility_range_fade_mode = 1
+mesh = SubResource("PlaneMesh_eevoj")
+skeleton = NodePath("../../..")
+
+[node name="Shadow" type="MeshInstance3D" parent="Floor"]
+cast_shadow = 3
+visibility_range_end = 150.0
+visibility_range_end_margin = 20.0
+visibility_range_fade_mode = 1
+mesh = SubResource("BoxMesh_vdpdu")
+
+[node name="Ceil" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.99, 0)
+cast_shadow = 2
+visibility_range_end = 150.0
+visibility_range_end_margin = 20.0
+visibility_range_fade_mode = 1
+mesh = SubResource("PlaneMesh_bj06d")
+
+[node name="WallFront" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -1)
+shape = SubResource("BoxShape3D_8xndl")
+
+[node name="WallIn" type="MeshInstance3D" parent="WallFront"]
+cast_shadow = 0
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+visibility_range_fade_mode = 1
+mesh = SubResource("QuadMesh_i0t8s")
+skeleton = NodePath("../../..")
+
+[node name="WallOut" type="MeshInstance3D" parent="WallFront"]
+transform = Transform3D(-1.05, 0, -8.74228e-08, 0, 1, 0, 9.17939e-08, 0, -1, 0, 0, -0.001)
+cast_shadow = 0
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+mesh = SubResource("QuadMesh_i0t8s")
+skeleton = NodePath("../../..")
+
+[node name="Shadow" type="MeshInstance3D" parent="WallFront"]
+cast_shadow = 3
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+mesh = SubResource("BoxMesh_qh1e4")
+
+[node name="WallRight" type="CollisionShape3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 2, 0)
+shape = SubResource("BoxShape3D_8xndl")
+
+[node name="WallIn" type="MeshInstance3D" parent="WallRight"]
+cast_shadow = 0
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+visibility_range_fade_mode = 1
+mesh = SubResource("QuadMesh_i0t8s")
+skeleton = NodePath("../../..")
+
+[node name="WallOut" type="MeshInstance3D" parent="WallRight"]
+transform = Transform3D(-1.05, 0, -8.74228e-08, 0, 1, 0, 9.17939e-08, 0, -1, 0, 0, -0.001)
+cast_shadow = 0
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+mesh = SubResource("QuadMesh_i0t8s")
+skeleton = NodePath("../../../../..")
+
+[node name="Shadow" type="MeshInstance3D" parent="WallRight"]
+cast_shadow = 3
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+mesh = SubResource("BoxMesh_qh1e4")
+
+[node name="WallBack" type="CollisionShape3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 2, 1)
+shape = SubResource("BoxShape3D_8xndl")
+
+[node name="WallIn" type="MeshInstance3D" parent="WallBack"]
+cast_shadow = 0
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+visibility_range_fade_mode = 1
+mesh = SubResource("QuadMesh_i0t8s")
+skeleton = NodePath("../../..")
+
+[node name="WallOut" type="MeshInstance3D" parent="WallBack"]
+transform = Transform3D(-1.05, 0, -8.74228e-08, 0, 1, 0, 9.17939e-08, 0, -1, 0, 0, -0.001)
+cast_shadow = 0
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+mesh = SubResource("QuadMesh_i0t8s")
+skeleton = NodePath("../../../../..")
+
+[node name="Shadow" type="MeshInstance3D" parent="WallBack"]
+cast_shadow = 3
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+mesh = SubResource("BoxMesh_qh1e4")
+
+[node name="WallLeft" type="CollisionShape3D" parent="."]
+transform = Transform3D(1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, -1, 2, 0)
+shape = SubResource("BoxShape3D_8xndl")
+
+[node name="WallIn" type="MeshInstance3D" parent="WallLeft"]
+cast_shadow = 0
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+visibility_range_fade_mode = 1
+mesh = SubResource("QuadMesh_i0t8s")
+skeleton = NodePath("../../..")
+
+[node name="WallOut" type="MeshInstance3D" parent="WallLeft"]
+transform = Transform3D(-1.05, 0, -8.74228e-08, 0, 1, 0, 9.17939e-08, 0, -1, 0, 0, -0.001)
+cast_shadow = 0
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+mesh = SubResource("QuadMesh_i0t8s")
+skeleton = NodePath("../../../../..")
+
+[node name="Shadow" type="MeshInstance3D" parent="WallLeft"]
+cast_shadow = 3
+visibility_range_end = 300.0
+visibility_range_end_margin = 25.0
+mesh = SubResource("BoxMesh_qh1e4")

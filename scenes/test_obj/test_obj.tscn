@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://c827pcinejaqp"]
+
+[ext_resource type="Script" path="res://scenes/test_obj/test_obj.gd" id="1_khnjq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eokhr"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_rjn7i"]
+size = Vector3(0.6, 0.6, 0.6)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5oabk"]
+size = Vector3(0.3, 0.3, 0.3)
+
+[node name="test_obj" type="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
+script = ExtResource("1_khnjq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_eokhr")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_rjn7i")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.346674)
+mesh = SubResource("BoxMesh_5oabk")

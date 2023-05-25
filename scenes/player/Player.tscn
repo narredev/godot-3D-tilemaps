@@ -1,0 +1,134 @@
+[gd_scene load_steps=8 format=3 uid="uid://cvkidh41qya47"]
+
+[ext_resource type="Script" path="res://scenes/player/player.gd" id="1_75k33"]
+[ext_resource type="Texture2D" uid="uid://is5wp0y1djyf" path="res://scenes/player/hand chase.png" id="2_rfu1a"]
+[ext_resource type="Texture2D" uid="uid://cyj3wunciprdr" path="res://scenes/player/back.png" id="3_onelm"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xry20"]
+radius = 0.4
+height = 1.8
+
+[sub_resource type="Animation" id="Animation_m6nks"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, -0.7, -3)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_rub8d"]
+resource_name = "walk"
+length = 0.533337
+loop_mode = 1
+step = 0.0333333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.466667, 0.533333),
+"transitions": PackedFloat32Array(2, 1, 0.5, 1, 1),
+"update": 0,
+"values": [Vector3(0, -0.7, -3), Vector3(0, -0.5, -3), Vector3(0, -0.7, -3), Vector3(0, -0.75, -3), Vector3(0, -0.7, -3)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.466667, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(1, 1, 1), Vector3(1, 1.2, 1), Vector3(1, 1, 1), Vector3(1, 0.8, 1), Vector3(1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_oqrtl"]
+_data = {
+"RESET": SubResource("Animation_m6nks"),
+"walk": SubResource("Animation_rub8d")
+}
+
+[node name="Player" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.20167, 1.05021, 5.91221)
+script = ExtResource("1_75k33")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.107579, 0)
+shape = SubResource("CapsuleShape3D_xry20")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.861223, 0.451795)
+light_color = Color(1, 0.839216, 0.635294, 1)
+light_energy = 7.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_begin = 2.0
+omni_range = 9.68662
+omni_attenuation = 0.329878
+omni_shadow_mode = 0
+
+[node name="Node3D" type="Node3D" parent="Camera3D"]
+
+[node name="Sprite3D" type="Sprite3D" parent="Camera3D/Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, -0.23, -0.55)
+ignore_occlusion_culling = true
+pixel_size = 0.001
+shaded = true
+double_sided = false
+alpha_cut = 3
+alpha_antialiasing_mode = 1
+alpha_antialiasing_edge = 0.45
+texture_filter = 2
+render_priority = 10
+texture = ExtResource("2_rfu1a")
+
+[node name="Sprite3D2" type="Sprite3D" parent="Camera3D/Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, -0.23, -0.55)
+flip_h = true
+pixel_size = 0.001
+shaded = true
+double_sided = false
+alpha_cut = 3
+alpha_antialiasing_mode = 1
+alpha_antialiasing_edge = 0.45
+texture_filter = 2
+texture = ExtResource("2_rfu1a")
+
+[node name="Sprite3D" type="Sprite3D" parent="Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.7, -3)
+pixel_size = 0.002
+shaded = true
+no_depth_test = true
+texture_filter = 2
+texture = ExtResource("3_onelm")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Camera3D/Sprite3D"]
+autoplay = "walk"
+libraries = {
+"": SubResource("AnimationLibrary_oqrtl")
+}

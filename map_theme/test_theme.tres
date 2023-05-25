@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MapTheme" load_steps=6 format=3 uid="uid://c2e0c78irjnf1"]
+
+[ext_resource type="ArrayMesh" uid="uid://cax63et2x331l" path="res://map_theme/ceil_wood_dark.res" id="1_brjjy"]
+[ext_resource type="PackedScene" uid="uid://dwu6vg2rirdht" path="res://map_theme/deco_collection.tscn" id="1_fr4us"]
+[ext_resource type="Script" path="res://addons/3d_tilemaps/scripts/map_theme.gd" id="4_amr0b"]
+[ext_resource type="ArrayMesh" uid="uid://60pqsndvsiy0" path="res://map_theme/floor_dirt.res" id="4_mk3u5"]
+[ext_resource type="ArrayMesh" uid="uid://bmyt3t03ury1m" path="res://map_theme/wall_bricks.res" id="5_jjsk1"]
+
+[resource]
+script = ExtResource("4_amr0b")
+wall_in = Array[Mesh]([ExtResource("5_jjsk1")])
+wall_out = Array[Mesh]([])
+no_wall_out = true
+wall_in_out_same = false
+scale_wall_out = false
+floor = Array[Mesh]([ExtResource("4_mk3u5")])
+ceil = Array[Mesh]([ExtResource("1_brjjy")])
+open_ceil = true
+collections = Array[PackedScene]([ExtResource("1_fr4us")])

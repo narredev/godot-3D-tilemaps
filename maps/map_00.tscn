@@ -1,0 +1,63 @@
+[gd_scene load_steps=4 format=3 uid="uid://cnbpxyhy8gvh3"]
+
+[ext_resource type="TileSet" uid="uid://bluab347p7aae" path="res://addons/3d_tilemaps/assets/tileset.tres" id="1_78lxu"]
+[ext_resource type="Script" path="res://addons/3d_tilemaps/scripts/scene_placer.gd" id="2_7xyiq"]
+[ext_resource type="PackedScene" uid="uid://c827pcinejaqp" path="res://scenes/test_obj/test_obj.tscn" id="3_0vxb4"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+texture_filter = 1
+tile_set = ExtResource("1_78lxu")
+format = 2
+layer_0/name = "Base"
+layer_0/tile_data = PackedInt32Array(131073, 524288, 1, 131074, 589824, 2, 131075, 720896, 1, 196611, 720896, 3, 196610, 589824, 3, 196609, 524288, 3, 131076, 131072, 3, 131077, 131072, 0, 131078, 196608, 3, 196613, 0, 1, 262149, 196608, 2, 262148, 131072, 3, 262147, 131072, 3, 262146, 131072, 0, 262145, 65536, 3, 196615, 0, 3, 327682, 0, 1, 393218, 131072, 2, 393217, 65536, 3, 393219, 131072, 3, 393220, 196608, 3, 65537, 524288, 0, 65538, 655360, 0, 524289, 655360, 1, 524290, 655360, 1, 524291, 655360, 1, 524292, 655360, 1, 589826, 655360, 1, 655362, 655360, 1, 589827, 655360, 1, 720898, 655360, 1, 720899, 655360, 1, 524294, 655360, 1, 65539, 720896, 0, 0, 0, 3)
+layer_1/name = "FloorType"
+layer_1/enabled = true
+layer_1/modulate = Color(1, 1, 1, 1)
+layer_1/y_sort_enabled = false
+layer_1/y_sort_origin = 0
+layer_1/z_index = -1
+layer_1/tile_data = PackedInt32Array(65537, 1, 1, 131074, 1, 1, 196610, 1, 1, 196611, 1, 1, 131073, 1, 1, 196609, 1, 1, 65538, 1, 1, 65539, 1, 1, 131075, 1, 1, 131076, 1, 1, 131077, 1, 1, 131078, 1, 1, 0, 1, 1)
+layer_2/name = "WallType"
+layer_2/enabled = true
+layer_2/modulate = Color(1, 1, 1, 1)
+layer_2/y_sort_enabled = false
+layer_2/y_sort_origin = 0
+layer_2/z_index = -1
+layer_2/tile_data = PackedInt32Array(65537, 1, 0, 131073, 1, 0, 196609, 1, 0, 65538, 1, 0, 131074, 1, 0, 196610, 1, 0, 65539, 1, 0, 131075, 1, 0, 196611, 1, 0, 131076, 1, 0, 131077, 1, 0, 131078, 1, 0, 0, 1, 0)
+layer_3/name = "Mods"
+layer_3/enabled = true
+layer_3/modulate = Color(1, 1, 1, 1)
+layer_3/y_sort_enabled = false
+layer_3/y_sort_origin = 0
+layer_3/z_index = 1
+layer_3/tile_data = PackedInt32Array(131074, 2, 0, 262146, 2, 2, 524290, 327682, 1)
+
+[node name="test_obj" type="Node2D" parent="TileMap"]
+position = Vector2(8, 8)
+script = ExtResource("2_7xyiq")
+p_scene = ExtResource("3_0vxb4")
+scene_props = Array[StringName]([&"item_id", &"other"])
+scene_data = {
+"item_id": &"test"
+}
+scene_metadata = {}
+
+[node name="test_obj2" type="Node2D" parent="TileMap"]
+position = Vector2(120, 56)
+rotation = 0.404604
+script = ExtResource("2_7xyiq")
+p_scene = ExtResource("3_0vxb4")
+scene_props = Array[StringName]([&"item_id", &"other"])
+scene_data = {
+"item_id": &"test2"
+}
+scene_metadata = {}
+
+[node name="TileMap2" type="TileMap" parent="."]
+visible = false
+texture_filter = 1
+tile_set = ExtResource("1_78lxu")
+format = 2
+layer_0/tile_data = PackedInt32Array(131074, 131072, 1, 65538, 0, 0, 131073, 65536, 3, 131075, 196608, 3, 196610, 0, 2, 327687, 720896, 0, 327686, 524288, 0, 393222, 524288, 3, 393223, 720896, 3, 131077, 65536, 0, 131078, 196608, 3, 196613, 0, 2)
