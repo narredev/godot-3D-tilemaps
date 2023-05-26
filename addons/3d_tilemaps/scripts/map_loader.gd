@@ -151,7 +151,7 @@ func load_map() -> void:
 				var td := tm.get_cell_tile_data(0, cord2)
 				block_unit.conv_tiledata_terrain(td)
 			
-			if !above && map_theme.open_ceil: block_unit.get_ceil().queue_free()
+			if !above && map_theme && map_theme.open_ceil: block_unit.get_ceil().queue_free()
 			
 			block_unit.remove_walls_out(neigh[0], neigh[1], neigh[2], neigh[3])
 			
