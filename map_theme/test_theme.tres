@@ -15,5 +15,5 @@ wall_in_out_same = false
 scale_wall_out = false
 floor = Array[Mesh]([ExtResource("4_mk3u5")])
 ceil = Array[Mesh]([ExtResource("1_brjjy")])
-open_ceil = true
+open_ceil = false
 collections = Array[PackedScene]([ExtResource("1_fr4us")])
