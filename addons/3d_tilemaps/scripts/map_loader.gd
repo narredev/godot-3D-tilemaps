@@ -200,7 +200,7 @@ func load_map() -> void:
 				node.set_owner(editor_tree)
 				node.global_position = Vector3(cord3 * block_loaded.tile_size)
 				node.global_position.y += y_offset
-				node.rotation.y = child.rotation * -1
+				node.rotation.y = child.rotation * -2
 				node.visible = child.visible
 				
 				child.queue_transfer_data(node)

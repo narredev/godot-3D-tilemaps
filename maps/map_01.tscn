@@ -22,7 +22,6 @@ layer_1/tile_data = PackedInt32Array(65537, 327682, 1, 65541, 327682, 1, 196615,
 
 [node name="test_obj2" type="Node2D" parent="TileMap"]
 position = Vector2(72, 56)
-rotation = 0.764338
 script = ExtResource("2_dj7a2")
 p_scene = ExtResource("3_w270c")
 scene_props = Array[StringName]([&"item_id", &"other"])
@@ -33,7 +32,7 @@ scene_metadata = {}
 
 [node name="test_obj" type="Node2D" parent="TileMap"]
 position = Vector2(24, 88)
-rotation = -1.57513
+rotation = 1.5708
 script = ExtResource("2_dj7a2")
 p_scene = ExtResource("3_w270c")
 scene_props = Array[StringName]([&"item_id", &"other"])

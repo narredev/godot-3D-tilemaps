@@ -1,4 +1,4 @@
-[gd_scene load_steps=97 format=3 uid="uid://bf54ctpkijgyl"]
+[gd_scene load_steps=98 format=3 uid="uid://bf54ctpkijgyl"]
 
 [ext_resource type="Script" path="res://addons/3d_tilemaps/scripts/map_loader.gd" id="1_8yl8m"]
 [ext_resource type="Resource" uid="uid://c2e0c78irjnf1" path="res://map_theme/test_theme.tres" id="2_maij6"]
@@ -20,7 +20,7 @@ height = 1.0
 radial_segments = 12
 rings = 1
 
-[sub_resource type="MultiMesh" id="MultiMesh_ko1r2"]
+[sub_resource type="MultiMesh" id="MultiMesh_2m7nr"]
 transform_format = 1
 instance_count = 36
 mesh = ExtResource("6_52fqd")
@@ -29,19 +29,19 @@ buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 4, 0, 1
 [sub_resource type="BoxMesh" id="BoxMesh_vdpdu"]
 size = Vector3(2, 0.1, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_4oqin"]
+[sub_resource type="MultiMesh" id="MultiMesh_h1qse"]
 transform_format = 1
 instance_count = 36
 mesh = SubResource("BoxMesh_vdpdu")
 buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6)
 
-[sub_resource type="MultiMesh" id="MultiMesh_wjnx1"]
+[sub_resource type="MultiMesh" id="MultiMesh_aab07"]
 transform_format = 1
 instance_count = 36
 mesh = ExtResource("7_86wsn")
 buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -6)
 
-[sub_resource type="MultiMesh" id="MultiMesh_fx3tr"]
+[sub_resource type="MultiMesh" id="MultiMesh_nigvl"]
 transform_format = 1
 instance_count = 6
 mesh = ExtResource("7_v3r4y")
@@ -50,376 +50,379 @@ buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 2, 0, 0, 1, -7, 1, 0, 0, 2, 0, 
 [sub_resource type="BoxMesh" id="BoxMesh_qh1e4"]
 size = Vector3(2.1, 4.1, 0.05)
 
-[sub_resource type="MultiMesh" id="MultiMesh_mt4n1"]
+[sub_resource type="MultiMesh" id="MultiMesh_14w5k"]
 transform_format = 1
 instance_count = 6
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 2, 0, 0, 1, -7, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, -7, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, -7, 1, 0, 0, -2, 0, 1, 0, 2, 0, 0, 1, -7, 1, 0, 0, -4, 0, 1, 0, 2, 0, 0, 1, -7, 1, 0, 0, -6, 0, 1, 0, 2, 0, 0, 1, -7)
 
-[sub_resource type="MultiMesh" id="MultiMesh_ngsbi"]
+[sub_resource type="MultiMesh" id="MultiMesh_c3pxm"]
 transform_format = 1
 instance_count = 6
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, 4, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, 2, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, 0, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, -2, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, -4, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, -6)
 
-[sub_resource type="MultiMesh" id="MultiMesh_pem7w"]
+[sub_resource type="MultiMesh" id="MultiMesh_f1xv8"]
 transform_format = 1
 instance_count = 6
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, 4, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, 2, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, 0, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, -2, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, -4, 1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, -6)
 
-[sub_resource type="MultiMesh" id="MultiMesh_6dvdu"]
+[sub_resource type="MultiMesh" id="MultiMesh_qmlpj"]
 transform_format = 1
 instance_count = 13
 mesh = ExtResource("6_52fqd")
 buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_1ejso"]
+[sub_resource type="MultiMesh" id="MultiMesh_6ui7h"]
 transform_format = 1
 instance_count = 13
 mesh = SubResource("BoxMesh_vdpdu")
 buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_7t7jl"]
+[sub_resource type="MultiMesh" id="MultiMesh_fpo0o"]
 transform_format = 1
 instance_count = 13
 mesh = ExtResource("7_86wsn")
 buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_fs8f6"]
+[sub_resource type="MultiMesh" id="MultiMesh_n4kxk"]
 transform_format = 1
 instance_count = 3
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, 1)
 
-[sub_resource type="MultiMesh" id="MultiMesh_pos7q"]
+[sub_resource type="MultiMesh" id="MultiMesh_gtsc8"]
 transform_format = 1
 instance_count = 3
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1, 0, 0, 4, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, 1)
 
-[sub_resource type="MultiMesh" id="MultiMesh_pdayx"]
+[sub_resource type="MultiMesh" id="MultiMesh_m88f7"]
 transform_format = 1
 instance_count = 9
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(-1, 0, 8.74228e-08, 4, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, 2, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, 0, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, -4, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, -6, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, -2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, 4, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, 2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, 0, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_vp158"]
+[sub_resource type="MultiMesh" id="MultiMesh_rjwra"]
 transform_format = 1
 instance_count = 9
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(-1, 0, 8.74228e-08, 4, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, 2, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, 0, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, -4, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, -6, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, -2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, 4, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, 2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, 0, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_b04tn"]
+[sub_resource type="MultiMesh" id="MultiMesh_0ad7o"]
 transform_format = 1
 instance_count = 5
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, -6, 1.31134e-07, 0, 1, -3, 0, 1, 0, 2, -1, 0, 1.31134e-07, 2, 1.31134e-07, 0, 1, -3, 0, 1, 0, 2, -1, 0, 1.31134e-07, 0, 1.31134e-07, 0, 1, -3, 0, 1, 0, 2, -1, 0, 1.31134e-07, -2, 1.31134e-07, 0, 1, -3, 0, 1, 0, 2, -1, 0, 1.31134e-07, -4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_fw600"]
+[sub_resource type="MultiMesh" id="MultiMesh_k2pwu"]
 transform_format = 1
 instance_count = 5
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1.31134e-07, 0, 1, -7, 0, 1, 0, 2, -1, 0, 1.31134e-07, -6, 1.31134e-07, 0, 1, -3, 0, 1, 0, 2, -1, 0, 1.31134e-07, 2, 1.31134e-07, 0, 1, -3, 0, 1, 0, 2, -1, 0, 1.31134e-07, 0, 1.31134e-07, 0, 1, -3, 0, 1, 0, 2, -1, 0, 1.31134e-07, -2, 1.31134e-07, 0, 1, -3, 0, 1, 0, 2, -1, 0, 1.31134e-07, -4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_xadeb"]
+[sub_resource type="MultiMesh" id="MultiMesh_850qi"]
 transform_format = 1
 instance_count = 3
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(-4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, 0, -4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, -2, -4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, -4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_xargg"]
+[sub_resource type="MultiMesh" id="MultiMesh_3qhua"]
 transform_format = 1
 instance_count = 3
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(-4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, 0, -4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, -2, -4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, -4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_34bpk"]
+[sub_resource type="MultiMesh" id="MultiMesh_quh32"]
 transform_format = 1
-instance_count = 17
+instance_count = 16
 mesh = ExtResource("6_52fqd")
-buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2)
+buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_qsq82"]
+[sub_resource type="MultiMesh" id="MultiMesh_fuk2v"]
 transform_format = 1
-instance_count = 17
+instance_count = 16
 mesh = SubResource("BoxMesh_vdpdu")
-buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2)
+buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_jg5w6"]
+[sub_resource type="MultiMesh" id="MultiMesh_yowfe"]
 transform_format = 1
 instance_count = 17
 mesh = ExtResource("7_86wsn")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_vdcpc"]
+[sub_resource type="MultiMesh" id="MultiMesh_ouou8"]
 transform_format = 1
 instance_count = 6
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 2, 0, 0, 1, -7, 1, 0, 0, 4, 0, 1, 0, 2, 0, 0, 1, -1, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, -1, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, -1, 1, 0, 0, -2, 0, 1, 0, 2, 0, 0, 1, -3, 1, 0, 0, -4, 0, 1, 0, 2, 0, 0, 1, -3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_qqs0a"]
+[sub_resource type="MultiMesh" id="MultiMesh_tfmk4"]
 transform_format = 1
 instance_count = 6
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 2, 0, 0, 1, -7, 1, 0, 0, 4, 0, 1, 0, 2, 0, 0, 1, -1, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, -1, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, -1, 1, 0, 0, -2, 0, 1, 0, 2, 0, 0, 1, -3, 1, 0, 0, -4, 0, 1, 0, 2, 0, 0, 1, -3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_ny2wi"]
+[sub_resource type="MultiMesh" id="MultiMesh_cjuh5"]
 transform_format = 1
 instance_count = 4
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(-1, 0, 8.74228e-08, 2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 1, -1, 0, 8.74228e-08, 0, 0, 1, 0, 2, -8.74228e-08, 0, -1, 1, -1, 0, 8.74228e-08, -2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, -4, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_eiu7n"]
+[sub_resource type="MultiMesh" id="MultiMesh_nb4ny"]
 transform_format = 1
 instance_count = 4
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(-1, 0, 8.74228e-08, 2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 1, -1, 0, 8.74228e-08, 0, 0, 1, 0, 2, -8.74228e-08, 0, -1, 1, -1, 0, 8.74228e-08, -2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, -4, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_7pa3q"]
+[sub_resource type="MultiMesh" id="MultiMesh_q8g04"]
 transform_format = 1
 instance_count = 2
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(1.31134e-07, 0, 1, 3, 0, 1, 0, 2, -1, 0, 1.31134e-07, 4, 1.31134e-07, 0, 1, 3, 0, 1, 0, 2, -1, 0, 1.31134e-07, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_aabrs"]
+[sub_resource type="MultiMesh" id="MultiMesh_68ir4"]
 transform_format = 1
 instance_count = 2
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1.31134e-07, 0, 1, 3, 0, 1, 0, 2, -1, 0, 1.31134e-07, 4, 1.31134e-07, 0, 1, 3, 0, 1, 0, 2, -1, 0, 1.31134e-07, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_2mn7q"]
+[sub_resource type="MultiMesh" id="MultiMesh_yx4ws"]
 transform_format = 1
 instance_count = 8
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(-4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 4, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -4, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -6, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 0, -4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, 2, -4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, -2, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 4, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_gyb4u"]
+[sub_resource type="MultiMesh" id="MultiMesh_uu4fx"]
 transform_format = 1
 instance_count = 8
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(-4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 4, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -4, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -6, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 0, -4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, 2, -4.37114e-08, 0, -1, -1, 0, 1, 0, 2, 1, 0, -4.37114e-08, -2, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 4, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 2)
 
-[sub_resource type="MultiMesh" id="MultiMesh_mygtb"]
+[sub_resource type="MultiMesh" id="MultiMesh_dvke5"]
 transform_format = 1
 instance_count = 18
 mesh = ExtResource("6_52fqd")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_0v5ai"]
+[sub_resource type="MultiMesh" id="MultiMesh_m1abi"]
 transform_format = 1
 instance_count = 18
 mesh = SubResource("BoxMesh_vdpdu")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -4, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 4, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_rqc0y"]
+[sub_resource type="MultiMesh" id="MultiMesh_48nnt"]
 transform_format = 1
 instance_count = 18
 mesh = ExtResource("7_86wsn")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, -4, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, -6, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -2, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -4, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, 4, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, 2, 0, 1, 0, 3.99, 0, 0, 1, 4, 1, 0, 0, 0, 0, 1, 0, 3.99, 0, 0, 1, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_7uwdd"]
+[sub_resource type="MultiMesh" id="MultiMesh_p3ehn"]
 transform_format = 1
 instance_count = 5
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(1, 0, 0, -2, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, -4, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, -6, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, -3, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, -3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_ddr2t"]
+[sub_resource type="MultiMesh" id="MultiMesh_3opev"]
 transform_format = 1
 instance_count = 5
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1, 0, 0, -2, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, -4, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, -6, 0, 1, 0, 2, 0, 0, 1, 1, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, -3, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, -3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_rom05"]
+[sub_resource type="MultiMesh" id="MultiMesh_jeaqa"]
 transform_format = 1
 instance_count = 7
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(-1, 0, 8.74228e-08, -6, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, -2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, -4, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, -6, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, 4, 0, 1, 0, 2, -8.74228e-08, 0, -1, 5, -1, 0, 8.74228e-08, 2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 5, -1, 0, 8.74228e-08, 0, 0, 1, 0, 2, -8.74228e-08, 0, -1, 5)
 
-[sub_resource type="MultiMesh" id="MultiMesh_4fcu5"]
+[sub_resource type="MultiMesh" id="MultiMesh_7vutq"]
 transform_format = 1
 instance_count = 7
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(-1, 0, 8.74228e-08, -6, 0, 1, 0, 2, -8.74228e-08, 0, -1, -5, -1, 0, 8.74228e-08, -2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, -4, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, -6, 0, 1, 0, 2, -8.74228e-08, 0, -1, 3, -1, 0, 8.74228e-08, 4, 0, 1, 0, 2, -8.74228e-08, 0, -1, 5, -1, 0, 8.74228e-08, 2, 0, 1, 0, 2, -8.74228e-08, 0, -1, 5, -1, 0, 8.74228e-08, 0, 0, 1, 0, 2, -8.74228e-08, 0, -1, 5)
 
-[sub_resource type="MultiMesh" id="MultiMesh_2jpnk"]
+[sub_resource type="MultiMesh" id="MultiMesh_b7tc3"]
 transform_format = 1
 instance_count = 5
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(1.31134e-07, 0, 1, 3, 0, 1, 0, 2, -1, 0, 1.31134e-07, -4, 1.31134e-07, 0, 1, 3, 0, 1, 0, 2, -1, 0, 1.31134e-07, -6, 1.31134e-07, 0, 1, -1, 0, 1, 0, 2, -1, 0, 1.31134e-07, 0, 1.31134e-07, 0, 1, -1, 0, 1, 0, 2, -1, 0, 1.31134e-07, -2, 1.31134e-07, 0, 1, -1, 0, 1, 0, 2, -1, 0, 1.31134e-07, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_xq802"]
+[sub_resource type="MultiMesh" id="MultiMesh_x7tvd"]
 transform_format = 1
 instance_count = 5
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1.31134e-07, 0, 1, 3, 0, 1, 0, 2, -1, 0, 1.31134e-07, -4, 1.31134e-07, 0, 1, 3, 0, 1, 0, 2, -1, 0, 1.31134e-07, -6, 1.31134e-07, 0, 1, -1, 0, 1, 0, 2, -1, 0, 1.31134e-07, 0, 1.31134e-07, 0, 1, -1, 0, 1, 0, 2, -1, 0, 1.31134e-07, -2, 1.31134e-07, 0, 1, -1, 0, 1, 0, 2, -1, 0, 1.31134e-07, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_8pwcd"]
+[sub_resource type="MultiMesh" id="MultiMesh_8yu6u"]
 transform_format = 1
 instance_count = 3
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(-4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -6, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -4, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -6)
 
-[sub_resource type="MultiMesh" id="MultiMesh_kxt5o"]
+[sub_resource type="MultiMesh" id="MultiMesh_ygefo"]
 transform_format = 1
 instance_count = 3
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(-4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -6, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -4, -4.37114e-08, 0, -1, 5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -6)
 
-[sub_resource type="MultiMesh" id="MultiMesh_ogfvj"]
+[sub_resource type="MultiMesh" id="MultiMesh_4q0dk"]
 transform_format = 1
 instance_count = 4
 mesh = ExtResource("6_52fqd")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_3m7xw"]
+[sub_resource type="MultiMesh" id="MultiMesh_il5r5"]
 transform_format = 1
 instance_count = 4
 mesh = SubResource("BoxMesh_vdpdu")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 0, 0, 0, 1, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_owcu4"]
+[sub_resource type="MultiMesh" id="MultiMesh_0hvpi"]
 transform_format = 1
 instance_count = 4
 mesh = ExtResource("7_86wsn")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 2, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 0, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, -2, 1, 0, 0, -6, 0, 1, 0, 3.99, 0, 0, 1, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_se6rd"]
+[sub_resource type="MultiMesh" id="MultiMesh_jyt7f"]
 transform_format = 1
 instance_count = 1
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 2, 0, 0, 1, -3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_g610i"]
+[sub_resource type="MultiMesh" id="MultiMesh_evhom"]
 transform_format = 1
 instance_count = 1
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(1, 0, 0, -6, 0, 1, 0, 2, 0, 0, 1, -3)
 
-[sub_resource type="MultiMesh" id="MultiMesh_w60h2"]
+[sub_resource type="MultiMesh" id="MultiMesh_w20l2"]
 transform_format = 1
 instance_count = 1
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(-1, 0, 8.74228e-08, -6, 0, 1, 0, 2, -8.74228e-08, 0, -1, 5)
 
-[sub_resource type="MultiMesh" id="MultiMesh_k1nbl"]
+[sub_resource type="MultiMesh" id="MultiMesh_ahme1"]
 transform_format = 1
 instance_count = 1
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(-1, 0, 8.74228e-08, -6, 0, 1, 0, 2, -8.74228e-08, 0, -1, 5)
 
-[sub_resource type="MultiMesh" id="MultiMesh_m0vkn"]
+[sub_resource type="MultiMesh" id="MultiMesh_jvhk7"]
 transform_format = 1
 instance_count = 4
 mesh = ExtResource("7_v3r4y")
 buffer = PackedFloat32Array(-4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 2, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 0, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -2, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 4)
 
-[sub_resource type="MultiMesh" id="MultiMesh_sor3n"]
+[sub_resource type="MultiMesh" id="MultiMesh_qqwt0"]
 transform_format = 1
 instance_count = 4
 mesh = SubResource("BoxMesh_qh1e4")
 buffer = PackedFloat32Array(-4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 2, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 0, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, -2, -4.37114e-08, 0, -1, -5, 0, 1, 0, 2, 1, 0, -4.37114e-08, 4)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_oy4tq"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_44e4u"]
 size = Vector3(14, 0.1, 4)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_o6b7n"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_lf6jt"]
 size = Vector3(18, 0.1, 2)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_wp1fy"]
-size = Vector3(24, 0.1, 2)
+[sub_resource type="BoxShape3D" id="BoxShape3D_38drl"]
+size = Vector3(14, 0.1, 2)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_hstiq"]
-size = Vector3(18, 0.1, 2)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_ox7e7"]
-size = Vector3(2, 0.1, 8)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_1ks3m"]
-size = Vector3(14, 0.1, 4)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_d21ur"]
-size = Vector3(2, 0.1, 6)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_yibte"]
-size = Vector3(8, 0.1, 4)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_luk35"]
-size = Vector3(22, 0.1, 2)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_rlcmt"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_vfy75"]
 size = Vector3(8, 0.1, 2)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_u7s3d"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_74ru6"]
+size = Vector3(18, 0.1, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xo4hg"]
+size = Vector3(2, 0.1, 8)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gugm1"]
+size = Vector3(14, 0.1, 4)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_djjvi"]
+size = Vector3(2, 0.1, 6)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wugm2"]
+size = Vector3(8, 0.1, 4)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rwcfd"]
+size = Vector3(22, 0.1, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bhghs"]
+size = Vector3(8, 0.1, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rjtyx"]
 size = Vector3(14, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_ged1b"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_c6yw8"]
 size = Vector3(4, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_3dgo7"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_n22w8"]
 size = Vector3(6, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_gcd6l"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_rs2tk"]
 size = Vector3(4, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_0c7uc"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_j4ggg"]
 size = Vector3(2, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_l0mc1"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_5r1iy"]
 size = Vector3(12, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_qfcq1"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_155la"]
 size = Vector3(4, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_ivgqt"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_q6b35"]
 size = Vector3(4, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_hmjh3"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_kup5t"]
 size = Vector3(4, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_aixde"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_3cb5s"]
 size = Vector3(8, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_o7lau"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_mv8dm"]
 size = Vector3(14, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_esv0i"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_wkhca"]
 size = Vector3(8, 4, 0.1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_v0txq"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_hdlh6"]
 size = Vector3(0.1, 4, 14)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_o30o4"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_o5fnf"]
 size = Vector3(0.1, 4, 8)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_5msuy"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_bbnsq"]
 size = Vector3(0.1, 4, 4)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_vqdjv"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_14w4b"]
 size = Vector3(0.1, 4, 2)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_fpcsf"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_whccp"]
 size = Vector3(0.1, 4, 8)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_jlgkc"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_7gbyo"]
 size = Vector3(0.1, 4, 6)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_lcaur"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_0rdue"]
 size = Vector3(0.1, 4, 4)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_v11s4"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_3ih3a"]
 size = Vector3(0.1, 4, 4)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_xbnje"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_u1gyu"]
 size = Vector3(0.1, 4, 2)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_prnm4"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_oxmqs"]
 size = Vector3(0.1, 4, 2)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_xxyss"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_fm8wp"]
 size = Vector3(0.1, 4, 10)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_y21tm"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_2stfd"]
 size = Vector3(0.1, 4, 8)
 
 [node name="Node3D" type="Node3D"]
@@ -446,14 +449,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.5, 2)
 mesh = SubResource("CylinderMesh_41n0h")
 
 [node name="test_obj2" type="Area3D" parent="MapLoader" instance=ExtResource("3_xmsvu")]
-transform = Transform3D(0.721841, 0, -0.692059, 0, 1, 0, 0.692059, 0, 0.721841, 8, 0.3, 6)
-visible = false
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.3, 6)
 script = ExtResource("4_iul6n")
 item_id = &"item1"
 
 [node name="test_obj" type="Area3D" parent="MapLoader" node_paths=PackedStringArray("other") instance=ExtResource("3_xmsvu")]
-transform = Transform3D(-0.00433365, 0, 0.999991, 0, 1, 0, -0.999991, 0, -0.00433365, 2, 0.3, 10)
-visible = false
+transform = Transform3D(-1, 0, 7.23998e-06, 0, 1, 0, -7.23998e-06, 0, -1, 2, 0.3, 10)
 script = ExtResource("4_iul6n")
 item_id = &"item2"
 other = NodePath("../test_obj2")
@@ -468,47 +469,47 @@ cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_ko1r2")
+multimesh = SubResource("MultiMesh_2m7nr")
 
 [node name="Floor-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 3]"]
 cast_shadow = 3
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_4oqin")
+multimesh = SubResource("MultiMesh_h1qse")
 
 [node name="CeilMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 3]"]
 cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_wjnx1")
+multimesh = SubResource("MultiMesh_aab07")
 
 [node name="WallFront-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 3]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_fx3tr")
+multimesh = SubResource("MultiMesh_nigvl")
 
 [node name="WallFront-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 3]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_mt4n1")
+multimesh = SubResource("MultiMesh_14w5k")
 
 [node name="WallLeft-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 3]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_ngsbi")
+multimesh = SubResource("MultiMesh_c3pxm")
 
 [node name="WallLeft-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 3]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_pem7w")
+multimesh = SubResource("MultiMesh_f1xv8")
 
 [node name="Chunk [3, 0, 9]" type="Node3D" parent="MapLoader"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 18)
@@ -520,73 +521,73 @@ cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_6dvdu")
+multimesh = SubResource("MultiMesh_qmlpj")
 
 [node name="Floor-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_1ejso")
+multimesh = SubResource("MultiMesh_6ui7h")
 
 [node name="CeilMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_7t7jl")
+multimesh = SubResource("MultiMesh_fpo0o")
 
 [node name="WallFront-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_fs8f6")
+multimesh = SubResource("MultiMesh_n4kxk")
 
 [node name="WallFront-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_pos7q")
+multimesh = SubResource("MultiMesh_gtsc8")
 
 [node name="WallBack-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_pdayx")
+multimesh = SubResource("MultiMesh_m88f7")
 
 [node name="WallBack-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_vp158")
+multimesh = SubResource("MultiMesh_rjwra")
 
 [node name="WallLeft-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_b04tn")
+multimesh = SubResource("MultiMesh_0ad7o")
 
 [node name="WallLeft-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_fw600")
+multimesh = SubResource("MultiMesh_k2pwu")
 
 [node name="WallRight-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_xadeb")
+multimesh = SubResource("MultiMesh_850qi")
 
 [node name="WallRight-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [3, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_xargg")
+multimesh = SubResource("MultiMesh_3qhua")
 
 [node name="Chunk [9, 0, 3]" type="Node3D" parent="MapLoader"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 6)
@@ -598,73 +599,73 @@ cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_34bpk")
+multimesh = SubResource("MultiMesh_quh32")
 
 [node name="Floor-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 3
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_qsq82")
+multimesh = SubResource("MultiMesh_fuk2v")
 
 [node name="CeilMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_jg5w6")
+multimesh = SubResource("MultiMesh_yowfe")
 
 [node name="WallFront-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_vdcpc")
+multimesh = SubResource("MultiMesh_ouou8")
 
 [node name="WallFront-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_qqs0a")
+multimesh = SubResource("MultiMesh_tfmk4")
 
 [node name="WallBack-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_ny2wi")
+multimesh = SubResource("MultiMesh_cjuh5")
 
 [node name="WallBack-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_eiu7n")
+multimesh = SubResource("MultiMesh_nb4ny")
 
 [node name="WallLeft-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_7pa3q")
+multimesh = SubResource("MultiMesh_q8g04")
 
 [node name="WallLeft-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_aabrs")
+multimesh = SubResource("MultiMesh_68ir4")
 
 [node name="WallRight-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_2mn7q")
+multimesh = SubResource("MultiMesh_yx4ws")
 
 [node name="WallRight-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 3]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_gyb4u")
+multimesh = SubResource("MultiMesh_uu4fx")
 
 [node name="Chunk [9, 0, 9]" type="Node3D" parent="MapLoader"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 18)
@@ -676,73 +677,73 @@ cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_mygtb")
+multimesh = SubResource("MultiMesh_dvke5")
 
 [node name="Floor-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_0v5ai")
+multimesh = SubResource("MultiMesh_m1abi")
 
 [node name="CeilMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_rqc0y")
+multimesh = SubResource("MultiMesh_48nnt")
 
 [node name="WallFront-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_7uwdd")
+multimesh = SubResource("MultiMesh_p3ehn")
 
 [node name="WallFront-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_ddr2t")
+multimesh = SubResource("MultiMesh_3opev")
 
 [node name="WallBack-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_rom05")
+multimesh = SubResource("MultiMesh_jeaqa")
 
 [node name="WallBack-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_4fcu5")
+multimesh = SubResource("MultiMesh_7vutq")
 
 [node name="WallLeft-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_2jpnk")
+multimesh = SubResource("MultiMesh_b7tc3")
 
 [node name="WallLeft-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_xq802")
+multimesh = SubResource("MultiMesh_x7tvd")
 
 [node name="WallRight-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_8pwcd")
+multimesh = SubResource("MultiMesh_8yu6u")
 
 [node name="WallRight-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [9, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_kxt5o")
+multimesh = SubResource("MultiMesh_ygefo")
 
 [node name="Chunk [15, 0, 9]" type="Node3D" parent="MapLoader"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 18)
@@ -754,199 +755,203 @@ cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_ogfvj")
+multimesh = SubResource("MultiMesh_4q0dk")
 
 [node name="Floor-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [15, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_3m7xw")
+multimesh = SubResource("MultiMesh_il5r5")
 
 [node name="CeilMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [15, 0, 9]"]
 cast_shadow = 2
 visibility_range_end = 150.0
 visibility_range_end_margin = 20.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_owcu4")
+multimesh = SubResource("MultiMesh_0hvpi")
 
 [node name="WallFront-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [15, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_se6rd")
+multimesh = SubResource("MultiMesh_jyt7f")
 
 [node name="WallFront-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [15, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_g610i")
+multimesh = SubResource("MultiMesh_evhom")
 
 [node name="WallBack-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [15, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_w60h2")
+multimesh = SubResource("MultiMesh_w20l2")
 
 [node name="WallBack-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [15, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_k1nbl")
+multimesh = SubResource("MultiMesh_ahme1")
 
 [node name="WallRight-WallInMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [15, 0, 9]"]
 cast_shadow = 0
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
 visibility_range_fade_mode = 1
-multimesh = SubResource("MultiMesh_m0vkn")
+multimesh = SubResource("MultiMesh_jvhk7")
 
 [node name="WallRight-ShadowMesh-id0" type="MultiMeshInstance3D" parent="MapLoader/Chunk [15, 0, 9]"]
 cast_shadow = 3
 visibility_range_end = 300.0
 visibility_range_end_margin = 25.0
-multimesh = SubResource("MultiMesh_sor3n")
+multimesh = SubResource("MultiMesh_qqwt0")
 
 [node name="FloorMergedBody" type="StaticBody3D" parent="MapLoader" groups=["navmesh"]]
 
 [node name="ColShapeRow1" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 1)
-shape = SubResource("BoxShape3D_oy4tq")
+shape = SubResource("BoxShape3D_44e4u")
 
 [node name="ColShapeRow2" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4)
-shape = SubResource("BoxShape3D_o6b7n")
+shape = SubResource("BoxShape3D_lf6jt")
 
 [node name="ColShapeRow3" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 6)
-shape = SubResource("BoxShape3D_wp1fy")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 6)
+shape = SubResource("BoxShape3D_38drl")
 
 [node name="ColShapeRow4" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8)
-shape = SubResource("BoxShape3D_hstiq")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 0, 6)
+shape = SubResource("BoxShape3D_vfy75")
 
 [node name="ColShapeRow5" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, 11)
-shape = SubResource("BoxShape3D_ox7e7")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8)
+shape = SubResource("BoxShape3D_74ru6")
 
 [node name="ColShapeRow6" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 11)
-shape = SubResource("BoxShape3D_1ks3m")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, 11)
+shape = SubResource("BoxShape3D_xo4hg")
 
 [node name="ColShapeRow7" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 16)
-shape = SubResource("BoxShape3D_d21ur")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 11)
+shape = SubResource("BoxShape3D_gugm1")
 
 [node name="ColShapeRow8" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, 17)
-shape = SubResource("BoxShape3D_yibte")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 16)
+shape = SubResource("BoxShape3D_djjvi")
 
 [node name="ColShapeRow9" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 20)
-shape = SubResource("BoxShape3D_luk35")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, 17)
+shape = SubResource("BoxShape3D_wugm2")
 
 [node name="ColShapeRow10" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 20)
+shape = SubResource("BoxShape3D_rwcfd")
+
+[node name="ColShapeRow11" type="CollisionShape3D" parent="MapLoader/FloorMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, 22)
-shape = SubResource("BoxShape3D_rlcmt")
+shape = SubResource("BoxShape3D_bhghs")
 
 [node name="WallsMergedBody" type="StaticBody3D" parent="MapLoader" groups=["navmesh"]]
 
 [node name="WallFrontColShape" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 2, -1)
-shape = SubResource("BoxShape3D_u7s3d")
+shape = SubResource("BoxShape3D_rjtyx")
 
 [node name="WallFrontColShape2" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 2, 3)
-shape = SubResource("BoxShape3D_ged1b")
+shape = SubResource("BoxShape3D_c6yw8")
 
 [node name="WallFrontColShape3" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 2, 5)
-shape = SubResource("BoxShape3D_3dgo7")
+shape = SubResource("BoxShape3D_n22w8")
 
 [node name="WallFrontColShape4" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 2, 15)
-shape = SubResource("BoxShape3D_gcd6l")
+shape = SubResource("BoxShape3D_rs2tk")
 
 [node name="WallFrontColShape5" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 2, 15)
-shape = SubResource("BoxShape3D_0c7uc")
+shape = SubResource("BoxShape3D_j4ggg")
 
 [node name="WallFrontColShape6" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 2, 19)
-shape = SubResource("BoxShape3D_l0mc1")
+shape = SubResource("BoxShape3D_5r1iy")
 
 [node name="WallBackColShape" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 2, 7)
-shape = SubResource("BoxShape3D_qfcq1")
+shape = SubResource("BoxShape3D_155la")
 
 [node name="WallBackColShape2" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 2, 9)
-shape = SubResource("BoxShape3D_ivgqt")
+shape = SubResource("BoxShape3D_q6b35")
 
 [node name="WallBackColShape3" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 13)
-shape = SubResource("BoxShape3D_hmjh3")
+shape = SubResource("BoxShape3D_kup5t")
 
 [node name="WallBackColShape4" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 2, 13)
-shape = SubResource("BoxShape3D_aixde")
+shape = SubResource("BoxShape3D_3cb5s")
 
 [node name="WallBackColShape5" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 2, 21)
-shape = SubResource("BoxShape3D_o7lau")
+shape = SubResource("BoxShape3D_mv8dm")
 
 [node name="WallBackColShape6" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 2, 23)
-shape = SubResource("BoxShape3D_esv0i")
+shape = SubResource("BoxShape3D_wkhca")
 
 [node name="WallLeftColShape" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 2, 6)
-shape = SubResource("BoxShape3D_v0txq")
+shape = SubResource("BoxShape3D_hdlh6")
 
 [node name="WallLeftColShape2" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, 17)
-shape = SubResource("BoxShape3D_o30o4")
+shape = SubResource("BoxShape3D_o5fnf")
 
 [node name="WallLeftColShape3" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 2, 17)
-shape = SubResource("BoxShape3D_5msuy")
+shape = SubResource("BoxShape3D_bbnsq")
 
 [node name="WallLeftColShape4" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 2, 22)
-shape = SubResource("BoxShape3D_vqdjv")
+shape = SubResource("BoxShape3D_14w4b")
 
 [node name="WallLeftColShape5" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 2, 11)
-shape = SubResource("BoxShape3D_fpcsf")
+shape = SubResource("BoxShape3D_whccp")
 
 [node name="WallRightColShape" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 2, 16)
-shape = SubResource("BoxShape3D_jlgkc")
+shape = SubResource("BoxShape3D_7gbyo")
 
-[node name="@WallRightColShape@18366" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
+[node name="@WallRightColShape@61964" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 2, 1)
-shape = SubResource("BoxShape3D_lcaur")
+shape = SubResource("BoxShape3D_0rdue")
 
-[node name="@WallRightColShape@18367" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
+[node name="@WallRightColShape@61965" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 2, 11)
-shape = SubResource("BoxShape3D_v11s4")
+shape = SubResource("BoxShape3D_3ih3a")
 
-[node name="@WallRightColShape@18368" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
+[node name="@WallRightColShape@61966" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 2, 4)
-shape = SubResource("BoxShape3D_xbnje")
+shape = SubResource("BoxShape3D_u1gyu")
 
-[node name="@WallRightColShape@18369" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
+[node name="@WallRightColShape@61967" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 2, 8)
-shape = SubResource("BoxShape3D_prnm4")
+shape = SubResource("BoxShape3D_oxmqs")
 
-[node name="@WallRightColShape@18370" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
+[node name="@WallRightColShape@61968" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23, 2, 10)
-shape = SubResource("BoxShape3D_xxyss")
+shape = SubResource("BoxShape3D_fm8wp")
 
-[node name="@WallRightColShape@18371" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
+[node name="@WallRightColShape@61969" type="CollisionShape3D" parent="MapLoader/WallsMergedBody"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 2, 19)
-shape = SubResource("BoxShape3D_y21tm")
+shape = SubResource("BoxShape3D_2stfd")
 
 [node name="Player" parent="." instance=ExtResource("7_76op6")]
