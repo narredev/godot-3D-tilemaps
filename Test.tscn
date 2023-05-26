@@ -1,9 +1,8 @@
-[gd_scene load_steps=98 format=3 uid="uid://bf54ctpkijgyl"]
+[gd_scene load_steps=97 format=3 uid="uid://bf54ctpkijgyl"]
 
 [ext_resource type="Script" path="res://addons/3d_tilemaps/scripts/map_loader.gd" id="1_8yl8m"]
 [ext_resource type="Resource" uid="uid://c2e0c78irjnf1" path="res://map_theme/test_theme.tres" id="2_maij6"]
 [ext_resource type="PackedScene" uid="uid://c827pcinejaqp" path="res://scenes/test_obj/test_obj.tscn" id="3_xmsvu"]
-[ext_resource type="Script" path="res://scenes/test_obj/test_obj.gd" id="4_iul6n"]
 [ext_resource type="Script" path="res://addons/3d_tilemaps/scripts/chunk.gd" id="5_kqxas"]
 [ext_resource type="ArrayMesh" uid="uid://60pqsndvsiy0" path="res://map_theme/floor_dirt.res" id="6_52fqd"]
 [ext_resource type="PackedScene" uid="uid://cvkidh41qya47" path="res://scenes/player/Player.tscn" id="7_76op6"]
@@ -448,14 +447,12 @@ mesh = SubResource("CylinderMesh_41n0h")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.5, 2)
 mesh = SubResource("CylinderMesh_41n0h")
 
-[node name="test_obj2" type="Area3D" parent="MapLoader" instance=ExtResource("3_xmsvu")]
+[node name="test_obj2" parent="MapLoader" instance=ExtResource("3_xmsvu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.3, 6)
-script = ExtResource("4_iul6n")
 item_id = &"item1"
 
-[node name="test_obj" type="Area3D" parent="MapLoader" node_paths=PackedStringArray("other") instance=ExtResource("3_xmsvu")]
+[node name="test_obj" parent="MapLoader" node_paths=PackedStringArray("other") instance=ExtResource("3_xmsvu")]
 transform = Transform3D(-1, 0, 7.23998e-06, 0, 1, 0, -7.23998e-06, 0, -1, 2, 0.3, 10)
-script = ExtResource("4_iul6n")
 item_id = &"item2"
 other = NodePath("../test_obj2")
 
