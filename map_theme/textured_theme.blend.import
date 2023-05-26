@@ -34,6 +34,10 @@ _subresources={
 "use_external/enabled": true,
 "use_external/path": "res://map_theme/materials/brick_rusted.tres"
 },
+"DarkWood": {
+"use_external/enabled": true,
+"use_external/path": "res://map_theme/materials/wood_old.tres"
+},
 "Dirt": {
 "use_external/enabled": true,
 "use_external/path": "res://map_theme/materials/dirt.tres"

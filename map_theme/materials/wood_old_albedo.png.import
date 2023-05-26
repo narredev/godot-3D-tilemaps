@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b862h46bac2ds"
-path.s3tc="res://.godot/imported/floor08.png-004734695a8b5d2530f6c4664f8ef585.s3tc.ctex"
+uid="uid://cpl5y2wes361i"
+path.s3tc="res://.godot/imported/wood_old_albedo.png-1f435aa9f7851dcf3da3386b142c8144.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://map_theme/materials/floor08.png"
-dest_files=["res://.godot/imported/floor08.png-004734695a8b5d2530f6c4664f8ef585.s3tc.ctex"]
+source_file="res://map_theme/materials/wood_old_albedo.png"
+dest_files=["res://.godot/imported/wood_old_albedo.png-1f435aa9f7851dcf3da3386b142c8144.s3tc.ctex"]
 
 [params]
 

@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://b4q1w5spl7ogf"]
+
+[ext_resource type="Texture2D" uid="uid://cpl5y2wes361i" path="res://map_theme/materials/wood_old_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c8f4fiu8orwms" path="res://map_theme/materials/wood_old_normal.png" id="3"]
+
+[resource]
+albedo_color = Color(0.4, 0.258824, 0.0627451, 1)
+albedo_texture = ExtResource("1")
+metallic_specular = 0.08
+roughness = 0.96
+normal_enabled = true
+normal_texture = ExtResource("3")
+texture_filter = 2
