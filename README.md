@@ -1,6 +1,8 @@
 # godot-3D-tilemaps
 
  Convert Tilemaps to 3D
+ 
+ [Read the Wiki](https://github.com/narredev/godot-3D-tilemaps/wiki) to know how to use it.
 
 ## Features
 
