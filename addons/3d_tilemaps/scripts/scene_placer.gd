@@ -3,11 +3,6 @@
 extends Node2D
 class_name ScenePlacer
 
-var plugin: Tile3DPlugin:
-	set(v):
-		plugin = v
-		request_preview()
-
 @export var p_scene: PackedScene:
 	set(v):
 		p_scene = v
@@ -26,7 +21,6 @@ const marker := preload("res://addons/3d_tilemaps/assets/icons/marker.png")
 var pre_tex: ImageTexture
 
 func _enter_tree() -> void: 
-	add_to_group("Tile3D")
 	update_configuration_warnings()
 
 func _exit_tree() -> void: remove_from_group("Tile3D")
@@ -110,7 +104,8 @@ func _draw() -> void:
 	draw_texture_rect(marker, Rect2(Vector2.ONE * -3 + Vector2.DOWN * 5, Vector2.ONE * 6), false)
 
 func request_preview() -> void:
-	if plugin && p_scene: plugin.get_preview(p_scene, self)
+	if !p_scene: return
+	Tile3DPlugin.get_preview(p_scene, self)
 
 func set_preview_texture(path: String, preview: Texture2D, thumbnail_preview: Texture2D, userdata) -> void:
 	pre_tex = preview
